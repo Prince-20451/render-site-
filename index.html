@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Sign Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="brand">APP</div>
+
+      <div class="heading">
+        <h1 id="title">Welcome Back 👋</h1>
+        <p id="subtitle">Login to continue to your account</p>
+      </div>
+
+      <form id="authForm">
+        <div class="field" id="nameField">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter your password" autocomplete="current-password" required>
+        </div>
+
+        <div class="field" id="confirmField">
+          <label for="confirmPassword">Confirm Password</label>
+          <input id="confirmPassword" type="password" placeholder="Confirm your password" autocomplete="new-password">
+        </div>
+
+        <button type="submit" id="submitBtn">Login</button>
+        <p class="message" id="message"></p>
+      </form>
+
+      <div class="switch">
+        <span id="switchText">Don't have an account?</span>
+        <button type="button" id="switchBtn">Sign up</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
