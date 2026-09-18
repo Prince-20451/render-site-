@@ -26,7 +26,7 @@ function setMode() {
     confirmInput.required = true;
     passwordInput.autocomplete = "new-password";
     submitBtn.textContent = "Create Account";
-    switchText.textContent = "Already have an account?";
+    switchText.textContent = "Already have an account?";  
     switchBtn.textContent = "Login";
   } else {
     title.textContent = "Welcome Back 👋";
