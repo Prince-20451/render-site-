@@ -27,7 +27,7 @@ function setMode() {
     passwordInput.autocomplete = "new-password";
     submitBtn.textContent = "Create Account";
     switchText.textContent = "Already have an account?";  
-    switchBtn.textContent = "Login";
+    switchBtn.textContent = "sign in";
   } else {
     title.textContent = "Welcome Back 👋";
     subtitle.textContent = "Login to continue to your account";
@@ -36,9 +36,9 @@ function setMode() {
     nameInput.required = false;
     confirmInput.required = false;
     passwordInput.autocomplete = "current-password";
-    submitBtn.textContent = "Login";
+    submitBtn.textContent = "Sign in";
     switchText.textContent = "Don't have an account?";
-    switchBtn.textContent = "Sign up";
+    switchBtn.textContent = "Sign in";
   }
 }
 
