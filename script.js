@@ -36,9 +36,9 @@ function setMode() {
     nameInput.required = false;
     confirmInput.required = false;
     passwordInput.autocomplete = "current-password";
-    submitBtn.textContent = "Sign in";
+    submitBtn.textContent = "login";
     switchText.textContent = "Don't have an account?";
-    switchBtn.textContent = "Sign in";
+    switchBtn.textContent = "login";
   }
 }
 
